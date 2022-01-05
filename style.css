@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+::selection {
+    color: red;
+    background-color: yellow;
+}
+
+p {
+    color: #757575;
+}
+
+.pofo {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    max-width: 100%;
+}
+
+.pofo_img {
+    width: 40%;
+    background-image: url(images/profile_girl1.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.pofo_desc {
+    width: 60%;
+    box-sizing: border-box;
+    padding-left: 50px;
+    margin-left: auto;
+}
+
+.pofo_intro {
+    text-align: center;
+    padding: 100px 0 150px 0;
+}
+
+.pofo_intro h1 {
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.pofo_intro h4 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.pofo_intro button {
+    background-color: #f1f1f1;
+    border: 1px solid transparent;
+    padding: 10px 40px;
+    transition: all 0.3s;
+}
+
+.pofo_intro button i {
+    font-size: 16px;
+}
+
+.pofo_intro button a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+    font-family: 'Montserrat';
+}
+
+.pofo_intro button:hover {
+    background-color: #ccc;
+}
+
+.my_pofo {
+    padding-right: 50px;
+}
+
+.pofo_hdr {
+    color: #757575;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+hr#rule_style {
+    border-top: 1px solid #ccc;
+}
+
+.pofo_images {
+    display: flex;
+    flex-direction: row;
+}
+
+.pofo_left {
+    width: 50%;
+    padding: 0 10px;
+}
+
+.pofo_right {
+    width: 50%;
+    padding: 0 10px;
+}
+
+.pofo_about {
+    padding-right: 50px;
+    padding-top: 30px;
+}
+
+.pofo_about p {
+    word-spacing: 1px;
+    line-height: 25px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.pofo_skill {
+    padding: 30px 50px 10px 0;
+    /* 10px may remove. */
+}
+
+.progress_title {
+    letter-spacing: 5px;
+}
+
+.pg_percentage {
+    width: 950px;
+}
+
+.wd_percentage {
+    width: 890px;
+}
+
+.ps_percentage {
+    width: 810px;
+}
+
+.progress_bar {
+    margin: 0;
+    background-color: #616161;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    padding: 5px 2px;
+}
+
+.progress_plate {
+    background-color: #f1f1f1;
+}
+
+.progress {
+    padding-bottom: 30px;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: row;
+    background-color: #616161;
+    padding: 10px 20px;
+    margin-right: 50px;
+}
+
+.tm {
+    width: 25%;
+    text-align: center;
+}
+
+.tm h2 {
+    color: white;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.tm h4 {
+    margin-top: 0px;
+    font-weight: 400;
+    color: white;
+}
+
+.resume_btn {
+    padding: 20px 0;
+    text-align: left;
+}
