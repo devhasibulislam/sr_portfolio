@@ -250,7 +250,7 @@ hr#rule_style {
 
 .basic {
     text-align: center;
-    border-bottom: 1px solid gray;
+    /* border-bottom: 1px solid gray; */
     padding-bottom: 25px;
     width: 48%;
     box-sizing: border-box;
@@ -317,7 +317,7 @@ hr#rule_style {
 
 .pro {
     text-align: center;
-    border-bottom: 1px solid gray;
+    /* border-bottom: 1px solid gray; */
     padding-bottom: 25px;
     width: 48%;
     box-sizing: border-box;
