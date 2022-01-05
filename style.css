@@ -14,6 +14,10 @@ p {
     color: #757575;
 }
 
+li {
+    list-style: none;
+}
+
 .pofo {
     display: flex;
     flex-direction: row;
@@ -21,6 +25,10 @@ p {
 
 img {
     max-width: 100%;
+}
+
+a {
+    text-decoration: none;
 }
 
 .pofo_img {
@@ -190,4 +198,329 @@ hr#rule_style {
 .resume_btn {
     padding: 20px 0;
     text-align: left;
+}
+
+.client {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+.client_intro {
+    display: flex;
+    flex-direction: row;
+}
+
+.client_intro img {
+    border-radius: 50%;
+    height: 110px;
+}
+
+.client_intro article {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.client_intro article h3 {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.client_intro article p {
+    margin-left: 30px;
+}
+
+.comment {
+    width: 700px;
+    text-align: center;
+    margin-top: -40px;
+}
+
+.comment p {
+    font-weight: 500;
+}
+
+.my_price {
+    padding-right: 50px;
+}
+
+.basic {
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding-bottom: 25px;
+    width: 48%;
+    box-sizing: border-box;
+    margin-right: 2%;
+    box-shadow: 0px 0px 10px 10px rgb(0 0 0 / 5%);
+    border-radius: 5px;
+}
+
+.basic h3 {
+    background-color: #616161;
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    padding: 30px 0;
+    margin: 0;
+}
+
+.basic ul {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.basic ul li {
+    border-bottom: 1px solid gray;
+    padding: 20px 0;
+}
+
+.basic ul li h5 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.basic ul li p {
+    margin-bottom: 0;
+}
+
+.basic:hover {
+    box-shadow: 0px 0px 10px 10px rgb(0 0 0 / 10%);
+}
+
+.card_btn {
+    padding: 10px 40px;
+    background-color: gray;
+    border: 1px solid transparent;
+}
+
+.card_btn a {
+    font-size: 16px;
+    font-family: 'Montserrat';
+    color: white;
+    font-weight: 500;
+}
+
+.card_btn:hover {
+    background-color: black;
+}
+
+.price_card {
+    display: flex;
+    flex-direction: row;
+}
+
+.pro {
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding-bottom: 25px;
+    width: 48%;
+    box-sizing: border-box;
+    margin-left: 2%;
+    box-shadow: 0px 0px 10px 10px rgb(0 0 0 / 5%);
+    border-radius: 5px;
+}
+
+.pro h3 {
+    background-color: #616161;
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    padding: 30px 0;
+    margin: 0;
+}
+
+.pro ul {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.pro ul li {
+    border-bottom: 1px solid gray;
+    padding: 20px 0;
+}
+
+.pro ul li h5 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.pro ul li p {
+    margin-bottom: 0;
+}
+
+.pro:hover {
+    box-shadow: 0px 0px 10px 10px rgb(0 0 0 / 10%);
+}
+
+.contact_me {
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.contact_info {
+    margin-top: 3%;
+}
+
+.location {
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+
+.location i {
+    font-size: 30px;
+    margin-right: 2%;
+    color: gray;
+}
+
+.phone {
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+
+.phone i {
+    font-size: 30px;
+    margin-right: 2%;
+    color: gray;
+}
+
+.email {
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+
+.email i {
+    font-size: 30px;
+    margin-right: 2%;
+    color: gray;
+}
+
+.maps {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.name {
+    margin-bottom: 1%;
+}
+
+#name {
+    padding: 8px;
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    border: 1px solid #ccc;
+    font-weight: 400;
+    color: #ccc;
+}
+
+.mail {
+    margin-bottom: 1%;
+}
+
+#mail {
+    padding: 8px;
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    border: 1px solid #ccc;
+    font-weight: 400;
+    color: #ccc;
+}
+
+.subject {
+    margin-bottom: 1%;
+}
+
+#subject {
+    padding: 8px;
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    border: 1px solid #ccc;
+    font-weight: 400;
+    color: #ccc;
+}
+
+.message {
+    margin-bottom: 1%;
+}
+
+#message {
+    padding: 8px;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    border: 1px solid #ccc;
+    font-weight: 400;
+    color: #ccc;
+}
+
+input {
+    font-size: 16px !important;
+}
+
+.submit_btn {
+    margin: 3% 0;
+}
+
+.submit_btn button {
+    padding: 10px 40px;
+    border: 1px solid transparent;
+}
+
+.submit_btn button i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.submit_btn button a {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Montserrat';
+    color: black;
+}
+
+.submit_btn button:hover {
+    background-color: black;
+    color: white
+}
+
+.submit_btn button:hover i {
+    background-color: black;
+    color: white
+}
+
+.submit_btn button:hover a {
+    background-color: black;
+    color: white
+}
+
+.footer {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.social_icons {
+    padding-bottom: 1%;
+}
+
+.social_icons a {
+    display: inline-block;
+}
+
+.social_icons a i {
+    font-size: 25px;
+    padding: 10px;
 }
